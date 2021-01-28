@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get PreSigned URL</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<link rel='stylesheet' type='text/css' href='//code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css' />
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+<link rel="stylesheet" type="text/css" href="/css/multicloud.css" />
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="/javascript/get-presigned-url.js" type="text/javascript"></script>
+
+<style type="text/css" media="all">
+<!--
+.btnSubmit {
+	background-color: #1E70A4;
+	padding:4px;
+	border: #1E70A4 1px solid;
+	color: #FFFFFF;
+}
+
+.ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-buttonpane, .ui-dialog .ui-dialog-content {
+	font-size: 12px;
+}
+
+.ui-button,  .ui-button-text .ui-button {
+	font-size: 12px !important;
+}
+-->
+</style>
+</head>
+<body class="ui-widget">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" class="mainTable">
+
+<!-- HTML header -->
+    <tr>
+        <td>
+            <table cellpadding="3" cellspacing="0" border="0" width="100%" style="background-color:#000000">
+            <tr>
+               <td class='leftAlign' style='width:33%; '></td>
+               <td class='centerAlign' style='width:34%; '><b>Get PreSigned URL</b></td>
+               <td class='rightAlign' style='width:33%; '>&nbsp;&nbsp;<?php echo date('l, M d');?></td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+
+	<tr>
+        <td class="stdtext">
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                    <td class='centerAlign'><input type='button' value='Get PreSigned URL' class='btnSubmit' id='get_psurl' /></td>
+                </tr>
+            </table>
+        </td>
+	</tr>
+
+	<!-- HTML footer -->
+	<tr>
+        <td>
+            <table style="background-color:#000000" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td align="center" class="footertext">Copyright &copy; Brian Gaber <?php echo date('Y');?></td>
+                </tr>
+            </table>
+        </td>
+	</tr>
+</table>
+</center>
+
+<!-- Mark block of text so that it can be erased -->
+<div class="stdtext" id='psurl_result'></div>
+<div id='dialog-message' title='Alert'></div>
+
+</body>
+</html>

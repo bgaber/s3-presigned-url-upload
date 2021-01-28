@@ -1,0 +1,238 @@
+/*
+generic styles and colors that apply to all routines
+   D3DCE8 - main screen background, iframe background, toolbar text, footer text
+   E9EDF4 - table background
+   1E70A4 - tab menus & buttons background
+          - table header
+*/
+
+body {
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	color:#333;
+	background-color: white
+	line-height:1.5em
+}
+
+.mainTable {
+   border-style:solid;
+   border-color:#1E70A4;
+   border-bottom-width:1px;
+   border-left-width:1px;
+   border-right-width:1px;
+   border-top-width:1px;
+   width:950px;
+   background-color:#D3DCE8
+}
+
+.iframe {
+   width:590px; background-color:#D3DCE8
+}
+
+.tblbg {
+   background-color:#E9EDF4
+}
+
+.menu {
+   background-color:#E9EDF4
+}
+
+.bg {
+   background-color:#D3DCE8;
+   font-size: 13px;
+   color: #000000;
+   font-family: inherit
+}
+/*.tabsbg {background-color:#1E70A4}*/
+
+.tabsbg {
+   background-color:#B1C6F3
+}
+
+table {
+   background-color:#E9EDF4;
+   border-collapse: collapse;
+}
+
+table td, table th {
+   padding: 5; /* 'cellpadding' equivalent */
+   border-color:#1E70A4;
+}
+
+td.bkgd {
+   background-color: #1E70A4;
+   text-align: center;
+}
+
+table.formatted {
+   background-color:#E9EDF4;
+   border: 1px solid #1E70A4;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   border-color:#1E70A4;
+   border-collapse: collapse;
+}
+
+table.formatted td, table.formatted th {
+   padding: 5; /* 'cellpadding' equivalent */
+   border: 1px solid #1E70A4;
+   border-color:#1E70A4;
+}
+
+.heading {
+   font-size: 16px;
+   color: #000000;
+   font-family: inherit;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: center;
+   background-color: #D3DCE8
+}
+
+.subheading {
+   font-size: 14px;
+   color: #FFFFFF;
+   font-family: inherit;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: center;
+   background-color: #1E70A4
+}
+
+select {
+   font-family: inherit;
+   font-size:11px;
+}
+
+
+/* format styles for toolbar. */
+
+a.toolbar1 {
+   text-decoration: none;
+   color: #D3DCE8;
+   font-family: inherit;
+   font-size: 11px
+}
+/* above def is for netscape which does not understand following IE links */
+
+a:link.toolbar1 {
+   text-decoration: none;
+   color: #D3DCE8;
+   font-family: inherit;
+   font-size: 11px
+}
+
+a:visited.toolbar1 {
+   text-decoration: none;
+   color: #D3DCE8;
+   font-family: inherit;
+   font-size: 11px
+}
+
+a:hover.toolbar1 {
+   text-decoration: none;
+   color: #BFA5A5;
+   font-family: inherit;
+   font-size: 11px
+}
+
+.toolbartext {
+   text-decoration: none;
+   color: #D3DCE8;
+   font-family: inherit;
+   font-size: 11px
+}
+
+.toolbargritstext {
+   text-decoration: none;
+   color: #D3DCE8;
+   font-family: inherit;
+   font-size: 13px
+}
+
+.leftAlign {
+   text-align:left;
+   color:#D3DCE8;
+   font-family:inherit;
+   font-size:11px;
+}
+.rightAlign {
+   text-align:right;
+   color:#D3DCE8;
+   font-family:inherit;
+   font-size:11px;
+}
+.centerAlign {
+   text-align:center;
+   color:#D3DCE8;
+   font-family:inherit;
+   font-size:13px;
+}
+
+/* format styles for footer. */
+
+.footertext {text-decoration : none; font-size:11px; color : #D3DCE8; font-family:inherit }
+a.footer { text-decoration : none; color : #D3DCE8; font-family:inherit; font-size:11px}
+          /* above def is for netscape which does not understand following IE links */
+a:link.footer { text-decoration : none; color : #D3DCE8; font-family:inherit; font-size:11px}
+a:visited.footer { text-decoration : none; color : #D3DCE8; font-family:inherit; font-size:11px}
+a:hover.footer { text-decoration : none; color : #BFA5A5; font-family:inherit; font-size:11px}
+
+
+/* format styles for center display area  */
+
+.lgtext  {  font-size:14px; color : #000000; font-family:inherit}
+.stdtext {  font-size:12px; color : #000000; font-family:inherit; background-color:inherit}
+.linktext { font-size:12px; color : blue; font-family:inherit}
+.stdbold {  font-size:12px; color : #000000; font-family:inherit; font-weight:bold}
+.smtext  {  font-size:11px; color : #000000; font-family:inherit}
+.vsmtext {  font-size:9px; color : #000000; font-family:inherit}
+.errtext {  font-size:12px; color : red; font-family:inherit}
+
+a.stdlink { text-decoration : none; color : rgb(0,0,255); font-family:inherit; font-size:12px}
+          /* above def is for netscape which does not understand following IE links */
+a:link.stdlink { text-decoration : none; color : rgb(0,0,255); font-family:inherit; font-size:12px}
+a:visited.stdlink { text-decoration : none; color : rgb(0,0,255); font-family:inherit; font-size:12px}
+a:hover.stdlink { text-decoration : none; color : rgb(200,0,100); font-family:inherit; font-size:12px}
+
+a.smlink { text-decoration : none; color : rgb(0,0,255); font-family:inherit; font-size:11px}
+          /* above def is for netscape which does not understand following IE links */
+a:link.smlink { text-decoration : none; color : rgb(0,0,255); font-family:inherit; font-size:11px}
+a:visited.smlink { text-decoration : none; color : rgb(0,0,255); font-family:inherit; font-size:11px}
+a:hover.smlink { text-decoration : none; color : rgb(200,0,100); font-family:inherit; font-size:11px}
+
+a.blanklink { text-decoration : none; color : #E9EDF4; font-family:inherit; font-size:12px}
+          /* above def is for netscape which does not understand following IE links */
+a:link.blanklink { text-decoration : none; color : #E9EDF4; font-family:inherit; font-size:12px}
+a:visited.blanklink { text-decoration : none; color : #E9EDF4; font-family:inherit; font-size:12px}
+a:hover.blanklink { text-decoration : none; color : rgb(200,0,100); font-family:inherit; font-size:12px}
+
+
+/* formatting for movement of top buttons */
+
+.mouseBeOffMe {
+border-top:    10px  solid #E9EDF4;
+border-bottom: 10px  solid #E9EDF4;
+border-left:   6px   solid #E9EDF4;
+border-right:  10px  solid #E9EDF4;
+}
+
+.mouseBeOnMe {
+border-top:    6px   solid #E9EDF4;
+border-bottom: 14px  solid #E9EDF4;
+border-left:   10px  solid #E9EDF4;
+border-right:  6px   solid #E9EDF4;
+}
+
+.mouseBeDown {
+border-top:    13px  solid #E9EDF4;
+border-bottom: 7px   solid #E9EDF4;
+border-left:   10px  solid #E9EDF4;
+border-right:  6px   solid #E9EDF4;
+}
+
+.mouseBeUp {
+border-top:    10px  solid #E9EDF4;
+border-bottom: 10px  solid #E9EDF4;
+border-left:   10px  solid #E9EDF4;
+border-right:  6px   solid #E9EDF4;
+}

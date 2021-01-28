@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::579326408185:role/s3_presigned_file_upload-dev",
+      "role_name": "s3_presigned_file_upload-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:ca-central-1:579326408185:function:s3_presigned_file_upload-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "mk4tkjgt8k",
+      "rest_api_url": "https://mk4tkjgt8k.execute-api.ca-central-1.amazonaws.com/api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "2.0",
+  "app_name": "s3_presigned_file_upload",
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api"
+    }
+  }
+}
