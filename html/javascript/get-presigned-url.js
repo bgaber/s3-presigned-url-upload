@@ -19,7 +19,7 @@ $(document).ready(function() {
         }
     });
 
-    const apigw_endpt = "https://mk4tkjgt8k.execute-api.ca-central-1.amazonaws.com/api";
+    const apigw_endpt = "https://blahblah.execute-api.REGION.amazonaws.com/api";
     
 	$("#get_psurl").click(function() {
         jq_ui_alert('dialog-message', "CLICKED");
@@ -28,7 +28,7 @@ $(document).ready(function() {
             url: apigw_endpt + "/generate_presigned_url",
             // The data to send (will be converted to a query string)
             data: {
-                file_name: "brian1_2.jpg", sid: Math.random()
+                file_name: "filename.jpg", sid: Math.random()
             },
             // Whether this is a POST or GET request
             type: "GET",
