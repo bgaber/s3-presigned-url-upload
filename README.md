@@ -6,7 +6,7 @@ The two Lambda functions presigned_post.py and presigned_url.py take the followi
 ```
 {
 bucket: "your bucket name",
-key: "your filename"
+key: "your filename.jpg"
 }
 ```
 
