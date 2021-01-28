@@ -6,8 +6,8 @@ import json
 
 app = Chalice(app_name='s3_presigned_file_upload')
 
-BUCKET_NAME = 'bg-ca-central-1-uploads'
-REGION = 'ca-central-1'
+BUCKET_NAME = 'YOUR BUCKET NAME HERE'
+REGION = 'YOUR REGION HERE'
 
 
 @app.route('/generate_presigned_url', methods=['GET'], cors=True)
