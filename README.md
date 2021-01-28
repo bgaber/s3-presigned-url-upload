@@ -16,7 +16,9 @@ The Chalice s3_presigned_file_upload Lambda function runs with the API Gateway E
 
 For example:
 
+```
 https://API-GW-Generated-String.execute-api.REGION.amazonaws.com/api/generate_presigned_url?file_name=filename.jpg
+```
 
 The get-presigned-url.html will output the Pre-Signed URL returned by the Chalice s3_presigned_file_upload Lambda function.
 It will need to be modified with your API Gateway Endpoint and filename.
