@@ -19,7 +19,7 @@ $(document).ready(function() {
         }
     });
 
-    const apigw_endpt = "https://mk4tkjgt8k.execute-api.ca-central-1.amazonaws.com/api";
+    const apigw_endpt = "https://blahblah.execute-api.REGION.amazonaws.com/api";
     
 	$("#get_psurl").click(function() {
         jq_ui_alert('dialog-message', "File Selected");
