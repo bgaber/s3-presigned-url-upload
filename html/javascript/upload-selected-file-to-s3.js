@@ -12,7 +12,7 @@ function jq_ui_alert(div_id, theMESSAGE) {
 }
 
 $(document).ready(function() {
-    const apigw_endpt = "https://mk4tkjgt8k.execute-api.ca-central-1.amazonaws.com/api";
+    const apigw_endpt = "https://blahblah.execute-api.region.amazonaws.com/api";
     
 	// $("#get_psurl").click(function() {
     $("#aws_upload_form").submit(function (e) {
