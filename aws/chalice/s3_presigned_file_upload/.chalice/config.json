@@ -1,6 +1,10 @@
 {
   "version": "2.0",
   "app_name": "s3_presigned_file_upload",
+  "environment_variables": {
+    "BUCKET_NAME": "bucket-for-uploads",
+    "REGION": "your-region"
+  },
   "stages": {
     "dev": {
       "api_gateway_stage": "api"

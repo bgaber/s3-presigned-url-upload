@@ -3,12 +3,12 @@
 from chalice import Chalice
 import boto3
 import json
+import os
 
 app = Chalice(app_name='s3_presigned_file_upload')
 
-BUCKET_NAME = 'YOUR BUCKET NAME HERE'
-REGION = 'YOUR REGION HERE'
-
+BUCKET_NAME = os.environ["BUCKET_NAME"]
+REGION = os.environ["REGION"]
 
 @app.route('/generate_presigned_url', methods=['GET'], cors=True)
 def generate_presigned_url():
